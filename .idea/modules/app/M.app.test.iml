@@ -26,5 +26,4 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.9.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.3" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="M.app.main" />
 </module>
