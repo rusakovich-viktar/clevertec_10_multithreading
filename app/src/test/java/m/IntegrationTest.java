@@ -19,7 +19,8 @@ public class IntegrationTest {
         }
 
         // Проверяем итоговое значение accumulator
-        int accumulator = server.getListSize() * (server.getListSize() + 1) / 2;
-        assertEquals((1 + n) * (n / 2), accumulator);
+        int actual = server.getListSize() * (server.getListSize() + 1) / 2;
+        int expected = (1 + n) * (n / 2);
+        assertEquals(expected, actual);
     }
 }
