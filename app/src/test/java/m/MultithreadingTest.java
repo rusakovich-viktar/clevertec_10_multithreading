@@ -24,7 +24,7 @@ public class MultithreadingTest {
             }).start();
         }
 
-        latch.await(); // Ожидаем завершения всех потоков
+        latch.await();
         assertEquals(n, server.getListSize()); // Проверяем, что размер списка сервера равен n
     }
 }

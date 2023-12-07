@@ -9,7 +9,7 @@ public class Main {
         Client client = new Client(n);
         Server server = new Server();
         client.sendRequests(server);
-        // Проверка accumulator
+
         int accumulator = server.getListSize() * (server.getListSize() + 1) / 2;
         System.out.println("Accumulator: " + accumulator);
         System.out.println("Expected: " + ((1 + n) * (n / 2)));
